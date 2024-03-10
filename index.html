@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link rel="shortcut icon" href="img/web-logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/2421f70b85.js" crossorigin="anonymous"></script>
+    <title>Бест Софт</title>
+</head>
+<body>
+    <header>
+		<div class="container">
+			<div class="menu" id="menu">
+				<div class="header__logo">
+					<a href="index.html"><img class="logo" src="img/logo.png"></a>
+				</div>
+				<nav class="header__nav">
+					<ul class="header__list">
+						<li class="header__type"><a class="header__link" href="#about">о компании</a></li>
+						<li class="header__type"><a class="header__link" href="#story">история</a></li>
+						<li class="header__type"><a class="header__link" href="#team">команда</a></li>
+						<li class="header__type"><a class="header__link" href="#services">услуги</a></li>
+						<li class="header__type"><a class="header__link" href="#vacancies">вакансии</a></li>
+						<li class="header__type"><a class="header__link" href="#feedback">контакты</a></li>
+					</ul>
+				</nav>    
+			</div>
+		</div>
+    </header>
+    <main>
+
+        <section class="slider">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/slider1.png">
+						<div class="container">
+							<h1 class=tekst1>
+								куратор <span>1С-талантов</span>
+							</h1>
+							<p class="tekst2">
+								“Вместе достигаем новых высот: создаем команду, вдохновляем результаты!"
+							</p>
+							<a class="swiper__button" href="#vacancies">
+								Вакансии
+							</a>
+						</div>
+					</div>    
+					<div class="swiper-slide"><img src="img/slider2.png">
+						<div class="container">
+							<h1 class=tekst1>
+								куратор <span>1С-талантов</span>
+							</h1>
+							<p class="tekst2">
+								"Вместе с HR менеджером - навстречу поразительным возможностям: создаем эффективную команду, достигаем превосходных результатов!"
+							</p>
+							<a class="swiper__button" href="#vacancies">
+								Вакансии
+							</a>
+						</div>
+					</div>  
+					<div class="swiper-slide"><img src="img/slider3.png">
+						<div class="container">
+							<h1 class=tekst1>
+								куратор <span>1С-талантов</span>
+							</h1>
+							<p class="tekst2">
+								"Ваш успех - наша забота: HR менеджер, вместе строим будущее!"
+							</p>
+							<a class="swiper__button" href="#vacancies">
+								Вакансии
+							</a>
+						</div>
+					</div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+            <script>
+                const swiper = new Swiper('.swiper', {
+                loop: true,
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            });
+            </script>
+        </section>
+		<section class="about" id="about">
+
+			<div class="container">
+
+				<div class="about__content">
+
+					<h1 class="about__title">
+						О компании Бест
+					</h1>
+
+					<p class="about__desc">
+						Автоматизация бизнес-процессов энергетических<br> и производственных предприятий
+					</p>
+
+					<h1 class="about__title">
+						Наша миссия:
+					</h1>
+
+					<p class="about__desc">
+						<span>Помогаем</span> компаниям трансформироваться для движения в<br>будущее, <span>создавая</span> комфортную IT-среду и <span>объединяя<br></span>команды.
+					</p>
+
+				</div>
+
+			</div>
+
+		</section>
+		<section class="story" id="story">
+
+			<div class="container">
+
+				<div class="story__content">
+					<fieldset>
+
+						<legend>История</legend>
+
+						<div class="story__left">
+							<ul class="story__items">
+								<li class="stoty__item">2021</li>
+								<li class="stoty__item">2020</li>
+								<li class="stoty__item">2019</li>
+								<li class="stoty__item">2018</li>
+								<li class="stoty__item">2017</li>
+								<li class="stoty__item">2016</li>
+								<li class="stoty__item">2015</li>
+								<li class="stoty__item">2014</li>
+								<li class="stoty__item">2012 - 2013</li>
+								<li class="stoty__item">2010 - 2011</li>
+								<li class="stoty__item">2008</li>
+								<li class="stoty__item">2007</li>
+								<li class="stoty__item">2003 - 2006</li>
+								<li class="stoty__item">2001</li>
+								<li class="stoty__item">2000</li>
+								<li class="stoty__item">1998</li>
+								<li class="stoty__item">1997</li>
+							</ul>
+						</div>
+
+						<div class="story__right">
+							<ul class="story__items">
+								<li class="stoty__list">Получение нового статуса – «1С:Центр компетенции по документообороту»</li>
+								<li class="stoty__list">Первое место среди фирм-франчайзи города Астрахани</li>
+								<li class="stoty__list">Развитие направления автоматизации биллинговых процессов</li>
+								<li class="stoty__list">Реализация первого проекта на базе программного продукта "1С:ERP Энергетика 2"</li>
+								<li class="stoty__list">Получение статуса "1С:Центр ERP".</li>
+								<li class="stoty__list">Лауреат золотой медали MetrolExpo 2016 за высокое качество в области автоматизации метрологических служб.</li>
+								<li class="stoty__list">Группа компаний «Бест» названа лучшим предпринимателем года в сфере инновационных технологий.</li>
+								<li class="stoty__list">Участник самого масштабного выставочного мероприятия электротехнической отрасли России «ЭЛЕКТРО-2014»</li>
+								<li class="stoty__list">Подписан самый крупный проект фирмы «1С» по внедрению «1С:Энергетика» с участием компании «Бест Софт»</li>
+								<li class="stoty__list">Выпуск тиражных продуктов «1С:Энергетика»</li>
+								<li class="stoty__list">Победитель ежегодного областного конкурса «Лучшее малое предприятие в сфере инновационной деятельности»</li>
+								<li class="stoty__list">Получение сертификата компании DNV, подтверждающего соответствие системы менеджмента качества.</li>
+								<li class="stoty__list">Авторизованный центр сертификации</li>
+								<li class="stoty__list">Клиентами компании являются все крупные предприятия Астраханской области в сфере электроэнергетики и ЖКХ</li>
+								<li class="stoty__list">Крупные проекты по автоматизации систем учета и управления предприятий в разных городах.</li>
+								<li class="stoty__list">Выход на российский рынок автоматизации энергетических предприятий</li>
+								<li class="stoty__list">Создание компании «Бест» Присвоение статуса «1С:Франчайзинг»</li>
+							</ul>
+						</div>
+
+					</fieldset>
+				</div>
+
+			</div>
+
+		</section>
+		<section class="team" id="team">
+
+			<div class="container">
+
+				<div class="team__content">
+
+					<p class="team_desc">
+						наша команда
+					</p>
+
+					<h1 class="team__title">
+						Наша опытная команда уже готова к совместным достижениям
+					</h1>
+
+					<div class="team__items">
+
+						<div class="team__item">
+							<img class="team__avatar" src="img/team/team1.png" alt="avatar">
+							<h1 class="team__item-title">
+								hr-менеджер
+							</h1>
+							<p class="team__item-desc">
+								Оптимизирует рабочие процессы с целью создания условий для благополучия и здоровья членов команды.
+							</p>
+						</div>
+
+						<div class="team__item">
+							<img class="team__avatar" src="img/team/team2.png" alt="avatar">
+							<h1 class="team__item-title">
+								1с-разработчик
+							</h1>
+							<p class="team__item-desc">
+								Ознакомит с технологиями с которыми мы работаем, а так же расскажет чем Вам предстоит заниматься.
+							</p>
+						</div>
+
+						<div class="team__item">
+							<img class="team__avatar" src="img/team/team3.png" alt="avatar">
+							<h1 class="team__item-title">
+								Директор
+							</h1>
+							<p class="team__item-desc">
+								Будет помогать в обучении и давать обратную связь для повышения производительности.
+							</p>
+						</div>
+
+					</div>
+
+
+
+				</div>
+
+			</div>
+			
+		</section>
+		<section class="services" id="services">
+
+			<div class="container">
+
+				<div class="services__content">
+
+					<h1 class="services__title">
+						Наши услуги
+					</h1>
+
+					<div class="content__services">
+
+						<div class="services__items">
+
+							<div class="services__item">
+								<img class="services__img" src="img/services/services1.png" alt="services">
+								<p class="services__desc">
+									Подбор необходимого программного обеспечения
+								</p>
+							</div>
+
+							<div class="services__item">
+								<img class="services__img" src="img/services/services2.png" alt="services">
+								<p class="services__desc">
+									Автоматизация предприятий энергетической сферы на базе программных продуктов «1С:Энергетика»
+								</p>
+							</div>
+
+							<div class="services__item">
+								<img class="services__img" src="img/services/services3.png" alt="services">
+								<p class="services__desc">
+									Внедрение решений «1С:Предприятие 8»
+								</p>
+							</div>
+
+						</div>
+
+						<div class="services__items">
+
+							<div class="services__item">
+								<img class="services__img" src="img/services/services4.png" alt="services">
+								<p class="services__desc">
+									Сопровождение решений<br>«1С:Предприятие 8»
+								</p>
+							</div>
+
+							<div class="services__item">
+								<img class="services__img" src="img/services/services5.png" alt="services">
+								<p class="services__desc">
+									Учебные курсы для пользователей программ «1С:Предприятие»
+								</p>
+							</div>
+
+							<div class="services__item">
+								<img class="services__img" src="img/services/services6.png" alt="services">
+								<p class="services__desc">
+									Сертификация «1С:Профессионал»
+								</p>
+							</div>
+
+						</div>
+
+						<div class="services__logo">
+							<img class="logo__services" src="img/companylogo/companylogo1.png" alt="companylogo">
+							<img class="logo__services" src="img/companylogo/companylogo2.png" alt="companylogo">
+							<img class="logo__services" src="img/companylogo/companylogo3.png" alt="companylogo">
+							<img class="logo__services" src="img/companylogo/companylogo4.png" alt="companylogo">
+							<img class="logo__services" src="img/companylogo/companylogo5.png" alt="companylogo">
+							<img class="logo__services" src="img/companylogo/companylogo6.png" alt="companylogo">
+							<img class="logo__services" src="img/companylogo/companylogo7.png" alt="companylogo">
+							<img class="logo__services" src="img/companylogo/companylogo8.png" alt="companylogo">
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+		<section class="advantages">
+
+			<div class="container">
+
+				<div class="advantages__content">
+
+					<h1 class="advantages__title">
+						Преимущества работы в компании Бест
+					</h1>
+
+					<p class="advantages__desc">
+						Заполни анкету и стань частью проектной команды "Бест"
+					</p>
+
+				</div>
+
+			</div>
+
+		</section>
+		<section class="vacancies" id="vacancies">
+
+			<div class="container">
+
+				<div class="vacancies__items">
+
+					<div class="vacancies__text">
+						<h1 class="vacancies__title">
+							Условия работы
+						</h1>
+					</div>
+
+					<div class="vacancies__links">
+						<ul class="vacancies__link">
+							<li>&#128293;&nbsp;&nbsp;Гибкий график работы.</li>
+							<li>&#128293;&nbsp;&nbsp;Возможность совмещения работы с учебой.</li>
+						</ul>
+					</div>
+
+				</div>
+
+				<div class="vacancies__items">
+
+					<div class="vacancies__text">
+						<h1 class="vacancies__title">
+							Заработная плата
+						</h1>
+					</div>
+
+					<div class="vacancies__links">
+						<ul class="vacancies__link">
+							<li>&#128293;&nbsp;&nbsp;Оплата труда - в соответствии с трудовым законодательством РФ.</li>
+							<li>&#128293;&nbsp;&nbsp;Система оплаты труда - % от выработки.</li>
+						</ul>
+					</div>
+
+				</div>
+
+				<div class="vacancies__items">
+
+					<div class="vacancies__text">
+						<h1 class="vacancies__title">
+							Предложения по преддипломной практике
+						</h1>
+					</div>
+
+					<div class="vacancies__links">
+						<p class="vacancies__desc">
+							В нашей компании вы можете пройти преддипломную практику. Руководство
+							практикой возьмут на себя ведущие специалисты, сертифицированные фирмой
+							«1C». В ходе практики:
+						</p>
+						<ul class="vacancies__link">
+							<li>&#128293;&nbsp;&nbsp;Научитесь программировать в среде «1C:Предприятие 8».</li>
+							<li>&#128293;&nbsp;&nbsp;Получите практический опыт применения знаний в предметных областях.</li>
+							<li>&#128293;&nbsp;&nbsp;Изучите технологии описания бизнес-процессов заказчика, сбора и формализации требований к автоматизированным системам.</li>
+							<li>&#128293;&nbsp;&nbsp;Получите опыт использования программ «1C:Предприятие 8» для решения реальных задач бизнеса.</li>
+						</ul>
+					</div>
+
+					
+
+				</div>
+
+				<div class="vacancies__items">
+
+					<div class="vacancies__text">
+						<h1 class="vacancies__title">
+							Стажировка
+						</h1>
+					</div>
+
+					<div class="vacancies__links">
+						<p class="vacancies__desc">
+							В нашей компании вы можете пройти преддипломную практику. Руководство
+							практикой возьмут на себя ведущие специалисты, сертифицированные фирмой
+							«1C». В ходе практики:
+						</p>
+
+						<ul class="vacancies__link">
+							<li>Стажеры, успешно прошедшие внутреннюю аттестацию, принимаются на постоянную работу в компанию.</li>
+						</ul>
+
+					</div>
+
+					
+
+				</div>
+				
+				<div class="vacancies__items">
+
+					<div class="vacancies__text">
+						<h1 class="vacancies__title">
+							Вакансии
+						</h1>
+					</div>
+
+					<div class="vacancies__links">
+						<p class="vacancies__desc active">
+							Консультант по внедрению программных продуктов 1С экономического назначения
+						</p>
+
+						<table>
+							<tbody>
+								<tr>
+									<td class="first__block">Условия работы</td>
+									<td class="second__block">						
+										<ul class="table__ul">
+											<li>Возраст: от 20</li>
+											<li>Образование: высшее</li>
+											<li>График работы: полный рабочий день</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td class="first__block">В чем заключается работа</td>
+									<td class="second__block">Работа в проектах по автоматизации финансово-
+										хозяйственной деятельности предприятий</td>
+								</tr>
+								<tr>
+									<td class="first__block">Подробное описание вакансии:</td>
+									<td class="second__block">						
+										<ul class="table__ul">
+											<li>Описание бизнес-процессов Заказчика.</li>
+											<li>Выявление проблемных участков учета.</li>
+											<li>Постановка задачи на автоматизацию.</li>
+											<li>Ведение проектов.</li>
+											<li>Подготовка проектной документации.</li>
+											<li>Проведение обучения.</li>
+											<li>Подготовка регламентов бизнес-процессов.</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td class="first__block">Дополнительная информация:</td>
+									<td class="second__block">						
+										<ul class="table__ul">
+											<li>Требования к кандидатам:</li>
+											<li>&#128293;&nbsp;&nbsp;Высшее или неоконченное высшее образование в области
+												экономики или Информационных технологий.</li>
+											<li>&#128293;&nbsp;&nbsp;Приветствуется знание типовых конфигураций 1C.
+												Коммуникабельность</li>
+										</ul>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+					</div>
+					
+
+					
+
+				</div>
+
+				<div class="vacancies__items">
+
+					<div class="vacancies__text">
+					</div>
+
+					<div class="vacancies__links">
+						<p class="vacancies__desc active">
+							Программист 1С
+						</p>
+
+						<table>
+							<tbody>
+								<tr>
+									<td class="first__block">Условия работы</td>
+									<td class="second__block">						
+										<ul class="table__ul">
+											<li>Стаж работы: от 1 года</li>
+											<li>График работы: полный рабочий день</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td class="first__block">В чем заключается работа</td>
+									<td class="second__block">Сопровождение типовых и нетиповых конфигураций 1C.
+										Разработка на языке 1C.</td>
+								</tr>
+								<tr>
+									<td class="first__block">Подробное описание вакансии:</td>
+									<td class="second__block">						
+										<ul class="table__ul">
+											<li>Желателен опыт работы с программными продуктами 1C.</li>
+											<li>Наличие сертификатов 1C:Профессионал, 1C:Специалист.</li>
+											<li>Высшее или неполное высшее экономическое или ИТ образование.</li>
+											<li>Знание основных механизмов платформы 1C:Предприятие 8.</li>
+											<li>Знание основ бухгалтерского и налогового учета.</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td class="first__block">Дополнительная информация:</td>
+									<td class="second__block">						
+										<ul class="table__ul">
+											<li>Сотруднику предоставляется:</li>
+											<li>&#128293;&nbsp;&nbsp;Полный социальный пакет;</li>
+											<li>&#128293;&nbsp;&nbsp;Компенсация проезда на транспорте;</li>
+											<li>&#128293;&nbsp;&nbsp;Оплата питания;</li>
+											<li>&#128293;&nbsp;&nbsp;Возможность бесплатного обучения и повышения квалификации.</li>
+										</ul>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+					</div>
+					
+
+					
+
+				</div>
+
+				<div class="vacancies__items">
+
+					<div class="vacancies__text">
+						<h1 class="vacancies__title">
+							Контакты
+						</h1>
+					</div>
+
+					<div class="vacancies__links">
+						<p class="vacancies__desc">
+							Получить более подробную информацию и подать заявку на стажировку можно по
+							телефону компании: +7 (499) 648-86-21.
+						</p>
+
+					</div>
+
+					
+
+				</div>
+
+			</div>
+
+		</section>
+		<section class="feedback" id="feedback">
+
+			<div class="container">
+
+				<div class="feedback__content">
+
+					<div class="content__left">
+
+						<h1 class="feedback__title">
+							Важны люди, а не бумага
+						</h1>
+
+						<p class="feedback__desc">
+							Оставьте заявку и откройте дверь в успешную карьеру и плодотворное сотрудничество!
+						</p>
+
+						<img class="feedback__img" src="img/ava.png" alt="avatar">
+
+						<p class="feedback__text">
+							«Рост и развитие каждого сотрудника — наш приоритет»
+						</p>
+
+						<p class="feedback__copyright">
+							Екатерина Горбачева  HR-Менеджер компании Бест Софт.
+						</p>
+						
+					</div>
+
+					<div class="content__right">
+
+						<form id="form" class="feedback__form">
+
+							<h1 class="form__title">Помогите нам узнать вас лучше</h1>
+
+							<div class="input__above">
+								<input type="text" class="form__input _req" name="name" id="" placeholder="Имя">
+								<input type="text" class="form__input _req _email" name="email" id="" placeholder="Email">
+							</div>
+
+							<div class="input__below">
+								<input type="text" class="form__input _req" name="number" id="" placeholder="Номер телефона">
+								<input type="text" class="form__input _req" name="surname" id="" placeholder="Фамилия">
+							</div>
+
+							<button type="submit" class="form__button">Отправить</button>
+						</form>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+    </main>
+    <footer class="footer">
+
+		<div class="container">
+
+			<div class="footer__content">
+
+				<div class="">
+
+					<a href="index.html"><img class="logo" src="img/logo.png" alt="logo"></a>
+					<h1 class="footer__title">
+						Автоматизация бизнес-процессов компаний ТЭК	
+					</h1>
+					<p class="footer__desc">
+						Качество услуг подтверждено международным стандартом ISO 9001:2015
+					</p>
+
+				</div>
+
+				<div class="footer__contacts">
+
+					<ul class="footer__list">
+						<li class="title__link">Контакты:</li>
+						<a href="mailto:office@astra-best.ru"><li class="footer__link">office@astra-best.ru</li></a>
+						<a href="tel:+74996488621"><li class="footer__link">+7 (499) 648-86-21</li></a>
+						<a href="tel:+78005052621"><li class="footer__link">+7 (800) 505-26-21</li></a>
+					</ul>
+
+				</div>   
+
+				<div class="footer__icons">
+
+					<h1 class="icons__title">
+						ооо “бест” © 2023
+					</h1>
+
+					<div class="icons__footer">
+
+						<a class="icons__link" href="https://instagram.com/quest_for_child" target="_blank"><img class="icons" src="img/instagram.png"></a>
+						<a class="icons__link" href="https://vk.com/mirkvestov_ru" target="_blank"><img class="icons" src="img/vk.png"></a>
+						<a class="icons__link" href="https://twitter.com/worldofquests" target="_blank"><img class="icons" src="img/twitter.png"></a>
+						<a class="icons__link" href="https://t.me/mirkvestovru" target="_blank"><img class="icons" src="img/telegram.png"></a>
+
+					</div>
+
+				</div>
+
+			</div>
+
+	</footer>
+
+    </footer>
+    <div class="arrow-up">
+        <a href="#menu"><i class="fas fa-arrow-up"></i></a>
+    </div>
+	<script src="index.js"></script>
+</body>
+</html>
